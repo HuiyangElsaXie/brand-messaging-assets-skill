@@ -1,7 +1,7 @@
 # Messaging method
 Narrow adaptation of the copywriting module's Before Writing, Benefits Over Features, customer-language, Voice and Tone, and CTA guidance. See THIRD_PARTY_NOTICES.md. No upstream empirical conversion claims or separately attributed drafting frameworks are imported.
 
-Connect what the product actually does to why it matters to the specific reader. A useful chain is capability → practical benefit → available evidence. If the benefit is merely plausible, keep it in internal planning or qualify it rather than turning it into a measured promise.
+Connect what the product actually does to why it matters to the specific reader. A useful chain is capability → practical benefit → available evidence. Label an inferred benefit as inference in the pillar itself; a voice sample is not proof of that benefit or a broader product claim. If the benefit is merely plausible, keep it in internal planning or qualify it rather than turning it into a measured promise.
 
 Use customer wording only from provided or permitted material; do not fabricate interviews. Preserve recognizable vocabulary from approved writing samples. Set formality and energy deliberately; a personal account needs the person's own perspective and approval, while a brand account can describe documented product capabilities.
 

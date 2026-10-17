@@ -24,5 +24,12 @@ This skill prepares local drafts. It does not publish, schedule posts, contact a
 7. If bilingual output is requested, localize intent and CTA naturally. Keep product names and factual qualifications consistent across languages; do not add new claims in translation.
 8. Deliver the [messaging kit](templates/messaging-kit.md), claim ledger, and approval questions. Use the [fictional example](examples/fictional-brand.md) for structure only.
 
+## Claim scope before assets
+Keep each source's supplied publication/update date separate from the comparison, access or draft date. A date supplied for one source does not date the rest; mark the others unknown rather than applying one date to the whole ledger.
+
+Approved style samples establish voice, not the truth or scope of their claims. Split sample wording into tone cues and factual assertions; put unsupported sample assertions in the claim ledger as DO NOT USE in publishable assets. A claim about one component does not establish a claim about all packaging or the whole product. Rewrite each asset to the supported scope even when the sample's broader line is attractive.
+
+Label a benefit inferred from a capability as inference, not a measured finding, in the pillar and proof fields. Keep an unvalidated benefit in internal planning or explicitly qualify it; do not turn it into a performance promise. Preserve source status in attribution: "the brief states" is not "the competitor lists" unless the listing was actually read. Check every headline, subhead, short description and channel draft against the ledger after voice adaptation.
+
 ## Completion check
 Check consistency across assets, unsupported or overbroad claims, persona authenticity, meaningful CTA destination, and preservation of user voice. If evidence is weak, deliver a conservative draft with visible gaps. No content is published.

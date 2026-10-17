@@ -1,0 +1,16 @@
+{
+  "repo": "brand-messaging-assets-skill",
+  "scenario": "source-date-retest",
+  "configured_model": "gpt-6.1-sol",
+  "base_commit": "82c95acaefc1d3756c9b9584ec6445e40db982a1",
+  "skill_entry": "SKILL.md",
+  "loaded_rule_sha256": {
+    "SKILL.md": "54230b621cd508a20a79fc1ddd286f0dbc51e69c1302517b91dc03022884cb07",
+    "references/messaging-method.md": "becb7196ce962dcee7c3053c06e70063bbbb386693aeaea78d143077b33126bb",
+    "templates/messaging-kit.md": "61e9b500d4c2becc15d2e28d69bed359d324c78a361ca32a3e5f9132d6ac690c"
+  },
+  "network_paid_accounts_business_tools": "prohibited",
+  "input_origin": "root-authored synthetic input; executor did not create the brief",
+  "retest_of": "sample-and-benefit",
+  "protocol": "Fresh independent first submitted deliverable; ordinary checks expressly required by the skill are permitted before submission; no post-submission self-review/repair. Prior answer and reviewer conclusions withheld."
+}

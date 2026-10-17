@@ -1,0 +1,23 @@
+{
+  "record_type": "reconstructed event log, not a verbatim tool transcript",
+  "events": [
+    {
+      "sequence": 1,
+      "tool": "exec_command via functions.exec",
+      "command": "Get-Content -LiteralPath <repo>/SKILL.md; Get-Content -LiteralPath <case>/brief.md; Get-Content -LiteralPath <case>/case.json",
+      "outcome": "success, exit 0; read only permitted entry and case inputs"
+    },
+    {
+      "sequence": 2,
+      "tool": "exec_command via functions.exec",
+      "command": "Get-Content -LiteralPath <repo>/references/messaging-method.md; Get-Content -LiteralPath <repo>/templates/messaging-kit.md; Get-Content -LiteralPath <repo>/examples/fictional-brand.md",
+      "outcome": "success, exit 0; loaded method, template and structure-only example"
+    },
+    {
+      "sequence": 3,
+      "tool": "exec_command via functions.exec; specified python -X utf8",
+      "command": "Python script through PowerShell here-string: save first complete response, hash loaded rules, save availability and reconstructed command log",
+      "outcome": "saved raw-response.md unchanged as first submission; saved tool-availability.md and commands.json; no post-submission review or repair"
+    }
+  ]
+}

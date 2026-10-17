@@ -1,0 +1,14 @@
+{
+  "repo": "brand-messaging-assets-skill",
+  "scenario": "sample-and-benefit",
+  "configured_model": "gpt-6.1-sol",
+  "base_commit": "82c95acaefc1d3756c9b9584ec6445e40db982a1",
+  "skill_entry": "SKILL.md",
+  "loaded_rule_sha256": {
+    "SKILL.md": "8f37bd24acdf248a19672e31c8dc7d6269b46b4fd880eaa7672e2f1d59e6e3d1",
+    "references/messaging-method.md": "becb7196ce962dcee7c3053c06e70063bbbb386693aeaea78d143077b33126bb",
+    "templates/messaging-kit.md": "43d0bdb414cb0d63764d8146783f8d48bc4a85664079826e6008b13ff28524e5"
+  },
+  "network_paid_accounts_business_tools": "prohibited",
+  "input_origin": "root-authored synthetic input; executor did not create the brief"
+}

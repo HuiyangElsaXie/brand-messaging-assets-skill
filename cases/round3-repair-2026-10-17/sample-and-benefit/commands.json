@@ -1,0 +1,55 @@
+{
+  "events": [
+    {
+      "event": 1,
+      "tool": "functions.exec -> exec_command",
+      "action": "Python -X utf8 read",
+      "paths": [
+        "{REPO}/SKILL.md",
+        "{CASE}/brief.md",
+        "{CASE}/case.json"
+      ],
+      "outcome": "success; exit 0; content displayed",
+      "recording": "retrospective reconstruction from actual tool call"
+    },
+    {
+      "event": 2,
+      "tool": "functions.exec -> exec_command",
+      "action": "Python -X utf8 read",
+      "paths": [
+        "{REPO}/references/messaging-method.md",
+        "{REPO}/templates/messaging-kit.md",
+        "{REPO}/examples/fictional-brand.md"
+      ],
+      "outcome": "success; exit 0; content displayed",
+      "recording": "retrospective reconstruction from actual tool call"
+    },
+    {
+      "event": 3,
+      "tool": "functions.exec -> exec_command",
+      "action": "Python -X utf8 write first answer",
+      "paths": [
+        "{CASE}/raw-response.md"
+      ],
+      "outcome": "success; exit 0; saved unchanged before any self-review",
+      "recording": "retrospective reconstruction from actual tool call"
+    },
+    {
+      "event": 4,
+      "tool": "functions.exec -> exec_command",
+      "action": "Python -X utf8 hash loaded resources and write execution records",
+      "read_paths": [
+        "{REPO}/SKILL.md",
+        "{REPO}/references/messaging-method.md",
+        "{REPO}/templates/messaging-kit.md",
+        "{REPO}/examples/fictional-brand.md"
+      ],
+      "write_paths": [
+        "{CASE}/commands.json",
+        "{CASE}/tool-availability.md"
+      ],
+      "outcome": "hashes computed; record writes performed by this invocation",
+      "recording": "current invocation"
+    }
+  ]
+}

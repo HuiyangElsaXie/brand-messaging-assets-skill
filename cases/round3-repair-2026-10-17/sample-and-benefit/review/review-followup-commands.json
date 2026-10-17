@@ -1,0 +1,20 @@
+{
+  "reviewer": "r3_review_b",
+  "record_type": "Retrospective reconstruction of actual follow-up tool calls, not a verbatim shell transcript",
+  "events": [
+    {
+      "event": 1,
+      "tool": "functions.exec -> exec_command",
+      "command": "PowerShell here-string piped to .runtime/python-tests/python.exe -X utf8 -",
+      "operation": "Read only brand brief.md, raw-response.md, existing brand audit.json and brand SKILL.md; display ASCII JSON-escaped text",
+      "outcome": "Success; exit 0; exact date wording compared"
+    },
+    {
+      "event": 2,
+      "tool": "functions.exec -> exec_command",
+      "command": "PowerShell here-string piped to .runtime/python-tests/python.exe -X utf8 -",
+      "operation": "Preserve original audits byte-for-byte as audit-v1.md/json; change overall and factual_identity to PARTIAL; add source-specific date finding; retain initial limitations; verify brief/raw hashes unchanged; write this follow-up command record",
+      "outcome": "Current invocation; confirmed by completion output if successful"
+    }
+  ]
+}

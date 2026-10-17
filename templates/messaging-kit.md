@@ -1,13 +1,14 @@
 # Messaging kit — draft for review
 ## Brief / provenance
 - Business / offer / audience / job / objective / resources:
-- Source register: ID, source, date, fact/assumption/missing:
+- Source register: ID, source, source date (unknown if absent), separate access/comparison date, fact/assumption/missing:
 - Requested scope / existing voice samples:
+- Sample tone cues versus factual claims; unsupported sample claims DO NOT USE:
 ## Internal positioning
 - Category / audience / problem / actual difference / alternative:
 - Value proposition:
 ## Message pillars
-| Pillar | Capability | Reader benefit | Proof / gap |
+| Pillar | Capability and source | Reader benefit: supported or inference | Proof / gap |
 |---|---|---|---|
 ## Claim ledger
 | Claim | Source / date | Supported wording | Restriction / missing evidence | Reviewer |
